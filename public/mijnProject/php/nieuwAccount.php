@@ -27,6 +27,12 @@
                 
                 if($wachtwoord1 == $wachtwoord2) {
                     mysqli_query($DBverbinding, "INSERT INTO `accounts` (`id`, `naam`, `email`, `wachtwoord`) VALUES (NULL, '$naam', '$email', '$wachtwoord1');");
+                    ?>
+                    <h2>Niew account succesvol aangemaakt.</h2>
+                    <br>
+                    <h4>U wordt tereugverwezen naar de inlogpagina.</h4>
+                    <?php
+                    header("Refresh:5; url=../index.php");
                 }
                 
                 else {
