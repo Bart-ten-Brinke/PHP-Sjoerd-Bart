@@ -32,7 +32,7 @@
                     <br>
                     <h4>U wordt tereugverwezen naar de inlogpagina.</h4>
                     <?php
-                    header("Refresh:5; url=../index.php");
+                    header("Refresh:2.5; url=../index.php");
                 }
                 
                 else {
@@ -43,8 +43,9 @@
             }
 
             else {
-            }
+        }
         ?>
+        <a href="../index.php">Terug</a>
     </body>
 </html>
 
