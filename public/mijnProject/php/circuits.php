@@ -16,138 +16,205 @@ $id = $_GET["id"];
         <link rel="stylesheet" type="text/css" href="../css/design.css">
     </head>
     <body>
+    <h1 class="paginatitel">Alle Formule 1 circuits van het seizoen 2020</h1>
         <div class=hoofddeel>
             <div class="circuit">
                 Melbourne
                 <a href="circuits.php?id=1">
                     <span class="link"></span>
-                
+                </a>
+                <div>
+                <img src="../images/circuits/2Melbourne.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Bahrein
                 <a href="circuits.php?id=2">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Bahrein.png" style="width:320px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Hanoi
                 <a href="circuits.php?id=3">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Hanoi.png" style="width:340px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Shanghai
                 <a href="circuits.php?id=4">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Shanghai.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Zandvoort
                 <a href="circuits.php?id=5">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Zandvoort.png" style="width:320px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Barcelona
                 <a href="circuits.php?id=6">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Barcelona.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Monaco
                 <a href="circuits.php?id=7">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Monaco.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Baku
                 <a href="circuits.php?id=8">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Baku.png" style="width:360px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Montreal
                 <a href="circuits.php?id=9">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Montreal.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Marseille
                 <a href="circuits.php?id=10">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Marseille.png" style="width:350px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Spielberg
                 <a href="circuits.php?id=11">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Spielberg.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Silverstone
                 <a href="circuits.php?id=12">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Silverstone.png" style="width:350px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Budapest
                 <a href="circuits.php?id=13">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Budapest.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Spa-Franchorchamps
                 <a href="circuits.php?id=14">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Spa-Francorchamps.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Monza
                 <a href="circuits.php?id=15">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Monza.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Singapore
                 <a href="circuits.php?id=16">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Singapore.png" style="width:350px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Sochi
                 <a href="circuits.php?id=17">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Sochi.png" style="width:350px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Suzuka
                 <a href="circuits.php?id=18">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Suzuka.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Austin
                 <a href="circuits.php?id=19">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Austin.png" style="width:240px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Mexico-city
                 <a href="circuits.php?id=20">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Mexico-city.png" style="width:350px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 São Paulo
                 <a href="circuits.php?id=21">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2São Paulo.png" style="width:290px; margin: 0px;">
+                </div>
             </div>
             <div class="circuit">
                 Abu Dhabi
                 <a href="circuits.php?id=22">
                     <span class="link"></span>
                 </a>
+                <div>
+                <img src="../images/circuits/2Abu Dhabi.png" style="width:270px; margin: 0px;">
+                </div>
             </div>
 
         </div>
