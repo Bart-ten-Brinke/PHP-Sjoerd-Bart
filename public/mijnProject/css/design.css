@@ -97,12 +97,19 @@ body {
     font-size: 34px;
     text-align: center;
     cursor: pointer;
-    position:relative;
+    position: relative;
 }
 
 .circuit {
     width: 25%;
     height: 320px;
+}
+
+.achtergrondfoto{
+    background-image: url('../images/Vlaggen/FlagAustralia.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0,5;
 }
 
 .coureur {

@@ -18,7 +18,7 @@ $id = $_GET["id"];
     <body>
     <h1 class="paginatitel">Alle Formule 1 circuits van het seizoen 2020</h1>
         <div class=hoofddeel>
-            <div class="circuit">
+            <div class="circuit achtergrondfoto">
                 Melbourne
                 <a href="circuits.php?id=1">
                     <span class="link"></span>
