@@ -177,6 +177,31 @@ body {
 .achtergrondfoto22{
     background-image: url("../images/Vlaggen/FlagUnited_Arab_Emirates.jpg");
 }
+
+.GPnaam{
+    text-align: center;
+    font-family: verdana;
+}
+
+.info{
+    font-family: verdana;
+    font-size: 20px;
+    float: left;
+}
+
+.fotocircuit{
+    vertical-align: center;
+}
+
+.hoofdinfo{
+    margin-left: 50px;
+
+}
+
+.tekst{
+    width: 50%;
+}
+
 .coureur {
     width: 40%;
     height: 300px;

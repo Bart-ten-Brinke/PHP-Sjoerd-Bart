@@ -313,57 +313,64 @@ $id = $_GET["id"];
     </head>
 
     <body>
+        <header class="GPnaam">
         <h1>Grand Prix van <?php echo $land[0]; ?> </h1>
+        </header>
         <br>
-        <h2> <?php echo $naam[0]; ?> : </h2>
-
-        <table>
-            <tr>
-                <td>Eerste Grand Prix:</td>
-                <td> <?php echo $eerste[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Circuit lengte:</td>
-                <td> <?php echo $lengte[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal rondes:</td>
-                <td> <?php echo $rondes[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Totale race lengte:</td>
-                <td> <?php echo $totaal[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal bochten:</td>
-                <td> <?php echo $bochten[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal DRS-zones:</td>
-                <td> <?php echo $drs[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Rijrichting:</td>
-                <td> <?php echo $richting[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Circuit type:</td>
-                <td> <?php echo $soort[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Laatste winnaar:</td>
-                <td> <?php echo $winnaar[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Ronde record:</td>
-                <td> <?php echo $snelste[0]; ?> </td>
-            </tr>
-        </table>
-
+        <div class="hoofdinfo">
+            <div>
+                <h2> <?php echo $naam[0]; ?> : </h2>
+                <br>
+                <table class="info">
+                    <tr>
+                        <td>Eerste Grand Prix:</td>
+                        <td> <?php echo $eerste[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Circuit lengte:</td>
+                        <td> <?php echo $lengte[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal rondes:</td>
+                        <td> <?php echo $rondes[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Totale race lengte:</td>
+                        <td> <?php echo $totaal[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal bochten:</td>
+                        <td> <?php echo $bochten[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal DRS-zones:</td>
+                        <td> <?php echo $drs[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Rijrichting:</td>
+                        <td> <?php echo $richting[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Circuit type:</td>
+                        <td> <?php echo $soort[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Laatste winnaar:</td>
+                        <td> <?php echo $winnaar[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Ronde record:</td>
+                        <td> <?php echo $snelste[0]; ?> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fotocircuit">
         <br>
-        <img src="../images/circuits/<?= $foto[0]?>.png" alt="Circuit" style="width:700px; margin: 15px;">
+        <img src="../images/circuits/<?= $foto[0]?>.png" alt="Circuit" style="width:600px; margin: 15px;">
         <br>
-
+        </div>
+        <div class="tekst">
         <p>
             <?php echo $tekst1[0]; ?>
         </p>
@@ -382,6 +389,7 @@ $id = $_GET["id"];
         <p>
             <?php echo $tekst6[0]; ?>
         </p>
+        </div>
         <br>
         <br>
         <br>
