@@ -18,7 +18,7 @@ $id = $_GET["id"];
     <body>
     <h1 class="paginatitel">Alle Formule 1 circuits van het seizoen 2020</h1>
         <div class=hoofddeel>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto1">
                 Melbourne
                 <a href="circuits.php?id=1">
                     <span class="link"></span>
@@ -27,7 +27,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Melbourne.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto2">
                 Bahrein
                 <a href="circuits.php?id=2">
                     <span class="link"></span>
@@ -36,7 +36,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Bahrein.png" style="width:320px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto3">
                 Hanoi
                 <a href="circuits.php?id=3">
                     <span class="link"></span>
@@ -45,7 +45,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Hanoi.png" style="width:340px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto4">
                 Shanghai
                 <a href="circuits.php?id=4">
                     <span class="link"></span>
@@ -54,7 +54,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Shanghai.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto5">
                 Zandvoort
                 <a href="circuits.php?id=5">
                     <span class="link"></span>
@@ -63,7 +63,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Zandvoort.png" style="width:320px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto6">
                 Barcelona
                 <a href="circuits.php?id=6">
                     <span class="link"></span>
@@ -72,7 +72,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Barcelona.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto7">
                 Monaco
                 <a href="circuits.php?id=7">
                     <span class="link"></span>
@@ -81,7 +81,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Monaco.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto8">
                 Baku
                 <a href="circuits.php?id=8">
                     <span class="link"></span>
@@ -90,7 +90,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Baku.png" style="width:360px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto9">
                 Montreal
                 <a href="circuits.php?id=9">
                     <span class="link"></span>
@@ -99,7 +99,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Montreal.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto10">
                 Marseille
                 <a href="circuits.php?id=10">
                     <span class="link"></span>
@@ -108,7 +108,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Marseille.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto11">
                 Spielberg
                 <a href="circuits.php?id=11">
                     <span class="link"></span>
@@ -117,7 +117,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Spielberg.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto12">
                 Silverstone
                 <a href="circuits.php?id=12">
                     <span class="link"></span>
@@ -126,7 +126,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Silverstone.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto13">
                 Budapest
                 <a href="circuits.php?id=13">
                     <span class="link"></span>
@@ -135,7 +135,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Budapest.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto14">
                 Spa-Franchorchamps
                 <a href="circuits.php?id=14">
                     <span class="link"></span>
@@ -144,7 +144,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Spa-Francorchamps.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto15">
                 Monza
                 <a href="circuits.php?id=15">
                     <span class="link"></span>
@@ -153,7 +153,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Monza.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto16">
                 Singapore
                 <a href="circuits.php?id=16">
                     <span class="link"></span>
@@ -162,7 +162,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Singapore.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto17">
                 Sochi
                 <a href="circuits.php?id=17">
                     <span class="link"></span>
@@ -171,7 +171,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Sochi.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto18">
                 Suzuka
                 <a href="circuits.php?id=18">
                     <span class="link"></span>
@@ -180,7 +180,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Suzuka.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto19">
                 Austin
                 <a href="circuits.php?id=19">
                     <span class="link"></span>
@@ -189,7 +189,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Austin.png" style="width:240px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto20">
                 Mexico-city
                 <a href="circuits.php?id=20">
                     <span class="link"></span>
@@ -198,7 +198,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2Mexico-city.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto21">
                 São Paulo
                 <a href="circuits.php?id=21">
                     <span class="link"></span>
@@ -207,7 +207,7 @@ $id = $_GET["id"];
                 <img src="../images/circuits/2São Paulo.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
-            <div class="circuit">
+            <div class="circuit achtergrondfotoalgemeen achtergrondfoto22">
                 Abu Dhabi
                 <a href="circuits.php?id=22">
                     <span class="link"></span>

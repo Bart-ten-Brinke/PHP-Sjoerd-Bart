@@ -105,6 +105,78 @@ body {
     height: 320px;
 }
 
+.achtergrondfotoalgemeen{
+    background-size: cover;
+    background-position: center;
+}
+
+.achtergrondfoto1{
+    background-image: url("../images/Vlaggen/FlagAustralia.jpg");
+}
+
+.achtergrondfoto2{
+    background-image: url("../images/Vlaggen/FlagBahrain.jpg");
+}
+.achtergrondfoto3{
+    background-image: url("../images/Vlaggen/FlagVietnam.jpg");
+}
+.achtergrondfoto4{
+    background-image: url("../images/Vlaggen/FlagChina.jpg");
+}
+.achtergrondfoto5{
+    background-image: url("../images/Vlaggen/FlagNetherlands.jpg");
+}
+.achtergrondfoto6{
+    background-image: url("../images/Vlaggen/FlagSpain.jpg");
+}
+.achtergrondfoto7{
+    background-image: url("../images/Vlaggen/FlagMonaco.jpg");
+}
+.achtergrondfoto8{
+    background-image: url("../images/Vlaggen/FlagAzerbaijan.jpg");
+}
+.achtergrondfoto9{
+    background-image: url("../images/Vlaggen/FlagCanada.jpg");
+}
+.achtergrondfoto10{
+    background-image: url("../images/Vlaggen/FlagFrance.jpg");
+}
+.achtergrondfoto11{
+    background-image: url("../images/Vlaggen/FlagAustria.jpg");
+}
+.achtergrondfoto12{
+    background-image: url("../images/Vlaggen/FlagUnited_Kingdom.jpg");
+}
+.achtergrondfoto13{
+    background-image: url("../images/Vlaggen/FlagHungary.jpg");
+}
+.achtergrondfoto14{
+    background-image: url("../images/Vlaggen/FlagBelgium.jpg");
+}
+.achtergrondfoto15{
+    background-image: url("../images/Vlaggen/FlagItaly.jpg");
+}
+.achtergrondfoto16{
+    background-image: url("../images/Vlaggen/FlagSingapore.jpg");
+}
+.achtergrondfoto17{
+    background-image: url("../images/Vlaggen/FlagRussia.jpg");
+}
+.achtergrondfoto18{
+    background-image: url("../images/Vlaggen/FlagJapan.jpg");
+}
+.achtergrondfoto19{
+    background-image: url("../images/Vlaggen/FlagUnited_States.jpg");
+}
+.achtergrondfoto20{
+    background-image: url("../images/Vlaggen/FlagMexico.jpg");
+}
+.achtergrondfoto21{
+    background-image: url("../images/Vlaggen/FlagBrazil.jpg");
+}
+.achtergrondfoto22{
+    background-image: url("../images/Vlaggen/FlagUnited_Arab_Emirates.jpg");
+}
 .coureur {
     width: 40%;
     height: 300px;
