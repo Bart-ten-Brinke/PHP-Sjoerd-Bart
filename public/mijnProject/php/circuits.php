@@ -318,10 +318,9 @@ $id = $_GET["id"];
         </header>
         <br>
         <div class="hoofdinfo">
-            <div>
                 <h2> <?php echo $naam[0]; ?> : </h2>
                 <br>
-                <table class="info">
+                <table>
                     <tr>
                         <td>Eerste Grand Prix:</td>
                         <td> <?php echo $eerste[0]; ?> </td>
@@ -363,14 +362,12 @@ $id = $_GET["id"];
                         <td> <?php echo $snelste[0]; ?> </td>
                     </tr>
                 </table>
-            </div>
         </div>
-        <div class="fotocircuit">
+
         <br>
-        <img src="../images/circuits/<?= $foto[0]?>.png" alt="Circuit" style="width:600px; margin: 15px;">
+        <img class="fotocircuit" src="../images/circuits/<?= $foto[0]?>.png" alt="Circuit" style="width:700px;">
         <br>
-        </div>
-        <div class="tekst">
+
         <p>
             <?php echo $tekst1[0]; ?>
         </p>
@@ -389,7 +386,6 @@ $id = $_GET["id"];
         <p>
             <?php echo $tekst6[0]; ?>
         </p>
-        </div>
         <br>
         <br>
         <br>

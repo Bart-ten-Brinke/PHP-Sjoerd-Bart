@@ -91,7 +91,7 @@ body {
     border: 10px black solid;
     border-radius: 10px;
     padding: 5px;
-    margin: 5% 0%;
+    margin: 3% 0%;
     background: rgb(255, 255, 255);
     font-family: 'Titillium Web', sans-serif;
     font-size: 34px;
@@ -103,6 +103,12 @@ body {
 .circuit {
     width: 25%;
     height: 320px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .achtergrondfotoalgemeen{
@@ -183,23 +189,22 @@ body {
     font-family: verdana;
 }
 
-.info{
-    font-family: verdana;
-    font-size: 20px;
-    float: left;
-}
-
 .fotocircuit{
-    vertical-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hoofdinfo{
-    margin-left: 50px;
-
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
 }
 
-.tekst{
-    width: 50%;
+.reacties{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
 }
 
 .coureur {
@@ -224,11 +229,18 @@ z-index: 1;
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
-  background: white;
+  background: transparent;
+  font-family: verdana;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
-    margin-right: 40%;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Titillium Web", Helvetica, sans-serif;;
 }
 
 .paginatitel {
