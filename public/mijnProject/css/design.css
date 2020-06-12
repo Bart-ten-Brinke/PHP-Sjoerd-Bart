@@ -26,10 +26,11 @@ body {
     text-decoration: none;
     display: flex;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
     display: inline-block;
     font-size: 24px;
     cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .headerButton:hover {
@@ -43,6 +44,7 @@ body {
     vertical-align:middle;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .headerKeuze2 {
@@ -73,12 +75,56 @@ body {
    width: 100%;
 }
 
-
-.footer {
+footer {
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
-    height:70px;
+    height:140px;
     font-family: 'Titillium Web', sans-serif;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footercontent{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerinfo{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: white;
+    float: left;
+}
+
+.socialmedia{
+    float: left;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: white;
+}
+.icon{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.contact{
+    margin-top: 10px;
+}
+
+.credits{
+    float: left;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.inhoudcredits{
+    margin-top: 10px;
 }
 
 .hoofddeel {
@@ -91,25 +137,119 @@ body {
     border: 10px black solid;
     border-radius: 10px;
     padding: 5px;
-    margin: 5% 0%;
+    margin: 3% 0%;
     background: rgb(255, 255, 255);
     font-family: 'Titillium Web', sans-serif;
     font-size: 34px;
     text-align: center;
     cursor: pointer;
-    position: relative;
+    position:relative;
 }
 
 .circuit {
     width: 25%;
     height: 320px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.achtergrondfoto{
-    background-image: url('../images/Vlaggen/FlagAustralia.jpg');
+.achtergrondfotoalgemeen{
     background-size: cover;
     background-position: center;
-    opacity: 0,5;
+}
+
+.achtergrondfoto1{
+    background-image: url("../images/Vlaggen/FlagAustralia.jpg");
+}
+
+.achtergrondfoto2{
+    background-image: url("../images/Vlaggen/FlagBahrain.jpg");
+}
+.achtergrondfoto3{
+    background-image: url("../images/Vlaggen/FlagVietnam.jpg");
+}
+.achtergrondfoto4{
+    background-image: url("../images/Vlaggen/FlagChina.jpg");
+}
+.achtergrondfoto5{
+    background-image: url("../images/Vlaggen/FlagNetherlands.jpg");
+}
+.achtergrondfoto6{
+    background-image: url("../images/Vlaggen/FlagSpain.jpg");
+}
+.achtergrondfoto7{
+    background-image: url("../images/Vlaggen/FlagMonaco.jpg");
+}
+.achtergrondfoto8{
+    background-image: url("../images/Vlaggen/FlagAzerbaijan.jpg");
+}
+.achtergrondfoto9{
+    background-image: url("../images/Vlaggen/FlagCanada.jpg");
+}
+.achtergrondfoto10{
+    background-image: url("../images/Vlaggen/FlagFrance.jpg");
+}
+.achtergrondfoto11{
+    background-image: url("../images/Vlaggen/FlagAustria.jpg");
+}
+.achtergrondfoto12{
+    background-image: url("../images/Vlaggen/FlagUnited_Kingdom.jpg");
+}
+.achtergrondfoto13{
+    background-image: url("../images/Vlaggen/FlagHungary.jpg");
+}
+.achtergrondfoto14{
+    background-image: url("../images/Vlaggen/FlagBelgium.jpg");
+}
+.achtergrondfoto15{
+    background-image: url("../images/Vlaggen/FlagItaly.jpg");
+}
+.achtergrondfoto16{
+    background-image: url("../images/Vlaggen/FlagSingapore.jpg");
+}
+.achtergrondfoto17{
+    background-image: url("../images/Vlaggen/FlagRussia.jpg");
+}
+.achtergrondfoto18{
+    background-image: url("../images/Vlaggen/FlagJapan.jpg");
+}
+.achtergrondfoto19{
+    background-image: url("../images/Vlaggen/FlagUnited_States.jpg");
+}
+.achtergrondfoto20{
+    background-image: url("../images/Vlaggen/FlagMexico.jpg");
+}
+.achtergrondfoto21{
+    background-image: url("../images/Vlaggen/FlagBrazil.jpg");
+}
+.achtergrondfoto22{
+    background-image: url("../images/Vlaggen/FlagUnited_Arab_Emirates.jpg");
+}
+
+.GPnaam{
+    text-align: center;
+    font-family: verdana;
+}
+
+.fotocircuit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoofdinfo{
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.reacties{
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: verdana;
 }
 
 .coureur {
@@ -134,11 +274,18 @@ z-index: 1;
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
-  background: white;
+  background: transparent;
+  font-family: verdana;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
-    margin-right: 40%;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Titillium Web", Helvetica, sans-serif;;
 }
 
 .paginatitel {

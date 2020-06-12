@@ -35,6 +35,7 @@ if (mysqli_num_rows($records) > 0) {
         <link rel="stylesheet" type="text/css" href="css/design.css?>">
     </head>
     <body>
+    <div class="reacties">
         <h2>Reacties:</h2>
 <?php
 if ($comments == []) {
@@ -76,5 +77,6 @@ else {
     }
 
 ?>
+    </div>
     </body>
 </html>
