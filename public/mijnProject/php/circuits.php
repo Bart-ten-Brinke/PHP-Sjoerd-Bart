@@ -302,6 +302,8 @@ $id = $_GET["id"];
     $sql = "SELECT tekst6 FROM circuits WHERE id=$id";
     $record = mysqli_query($DBverbinding, $sql);
     $tekst6 = mysqli_fetch_array($record);
+
+    $soort = "circuit";
 ?>
 
 <!DOCTYPE html>

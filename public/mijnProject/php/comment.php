@@ -3,7 +3,7 @@
     require('database.php');
     $id = $_GET["id"];
 
-$sql = "SELECT naam FROM comments WHERE plaats_id = $id";
+$sql = "SELECT naam FROM comments WHERE plaats_id = $id AND soort = '$soort'";
 $records = mysqli_query($DBverbinding, $sql);
 $namen = [];
 if (mysqli_num_rows($records) > 0) {
@@ -12,7 +12,7 @@ if (mysqli_num_rows($records) > 0) {
     }
 }
 
-$sql = "SELECT comment FROM comments WHERE plaats_id = $id";
+$sql = "SELECT comment FROM comments WHERE plaats_id = $id AND soort = '$soort'";
 $records = mysqli_query($DBverbinding, $sql);
 $comments = [];
 if (mysqli_num_rows($records) > 0) {
@@ -39,6 +39,7 @@ if (mysqli_num_rows($records) > 0) {
 <?php
 if ($comments == []) {
     echo '<h4>Er zijn nog geen reacties, wees de eerste die iets achterlaat!</h4>';
+    echo $id;
 }
 
 else { 
@@ -64,7 +65,7 @@ else {
 <?php
     if (isset($_POST['reageer'])) {
         $reactie = $_POST["comment"];
-        mysqli_query($DBverbinding, "INSERT INTO `comments` (`id`, `plaats_id`, `naam`, `comment`) VALUES (NULL, '$id', '$gebruiker[0]', '$reactie');");
+        mysqli_query($DBverbinding, "INSERT INTO `comments` (`id`, `soort`, `plaats_id`, `naam`, `comment`) VALUES (NULL, '$soort', '2', '$gebruiker[0]', '$reactie');");
         ?>
         echo("<meta http-equiv='refresh' content='1'>");
         <?php

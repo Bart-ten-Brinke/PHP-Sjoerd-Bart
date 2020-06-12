@@ -163,6 +163,8 @@ $id = $_GET["id"];
     $sql = "SELECT tekst4 FROM teams WHERE id=$id";
     $record = mysqli_query($DBverbinding, $sql);
     $tekst4 = mysqli_fetch_array($record);
+
+    $soort = "team";
 ?>
 
 <!DOCTYPE html>
