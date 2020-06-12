@@ -2,8 +2,8 @@
     error_reporting(E_ALL & ~E_NOTICE);
     require('database.php');
     require('header.php');
+    
     $id = $_GET["id"];
- 
     if($id==0) {
 ?>
 
@@ -131,7 +131,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Budapest.png" style="width:290px; margin: 0px;">
+                    <img src="../images/circuits/2Budapest.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto14">
@@ -140,7 +140,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Spa-Francorchamps.png" style="width:290px; margin: 0px;">
+                    <img src="../images/circuits/2Spa-Francorchamps.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto15">
@@ -149,7 +149,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Monza.png" style="width:290px; margin: 0px;">
+                    <img src="../images/circuits/2Monza.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto16">
@@ -158,7 +158,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Singapore.png" style="width:350px; margin: 0px;">
+                    <img src="../images/circuits/2Singapore.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto17">
@@ -167,7 +167,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Sochi.png" style="width:350px; margin: 0px;">
+                    <img src="../images/circuits/2Sochi.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto18">
@@ -176,7 +176,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Suzuka.png" style="width:290px; margin: 0px;">
+                    <img src="../images/circuits/2Suzuka.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto19">
@@ -185,7 +185,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Austin.png" style="width:240px; margin: 0px;">
+                    <img src="../images/circuits/2Austin.png" style="width:240px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto20">
@@ -194,7 +194,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Mexico-city.png" style="width:350px; margin: 0px;">
+                    <img src="../images/circuits/2Mexico-city.png" style="width:350px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto21">
@@ -203,7 +203,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2São Paulo.png" style="width:290px; margin: 0px;">
+                    <img src="../images/circuits/2São Paulo.png" style="width:290px; margin: 0px;">
                 </div>
             </div>
             <div class="circuit achtergrondfotoalgemeen achtergrondfoto22">
@@ -212,7 +212,7 @@
                     <span class="link"></span>
                 </a>
                 <div>
-                <img src="../images/circuits/2Abu Dhabi.png" style="width:270px; margin: 0px;">
+                    <img src="../images/circuits/2Abu Dhabi.png" style="width:270px; margin: 0px;">
                 </div>
             </div>
         </div>
@@ -221,10 +221,8 @@
 
 <?php
     }
-
     else {
-?>
-<?php
+
     $sql = "SELECT land FROM circuits WHERE id=$id";
     $record = mysqli_query($DBverbinding, $sql);
     $land = mysqli_fetch_array($record);

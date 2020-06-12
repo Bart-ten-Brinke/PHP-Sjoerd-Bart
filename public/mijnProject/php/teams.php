@@ -1,11 +1,9 @@
 <?php
-error_reporting(E_ALL & ~E_NOTICE);
-require('database.php');
-require('header.php');
-$id = $_GET["id"];
-?>
-
-<?php 
+    error_reporting(E_ALL & ~E_NOTICE);
+    require('database.php');
+    require('header.php');
+    
+    $id = $_GET["id"]; 
     if($id==0) {
 ?>
 
@@ -15,6 +13,7 @@ $id = $_GET["id"];
         <title>F1 Teams</title>
         <link rel="stylesheet" type="text/css" href="../css/design.css">
     </head>
+
     <body>
         <div class=hoofddeel>
             <div class="team">
@@ -83,11 +82,8 @@ $id = $_GET["id"];
 
 <?php
     }
-
     else {
-?>
 
-<?php
     $sql = "SELECT naam FROM teams WHERE id=$id";
     $record = mysqli_query($DBverbinding, $sql);
     $naam = mysqli_fetch_array($record);
@@ -169,95 +165,107 @@ $id = $_GET["id"];
 
 <!DOCTYPE html>
 <html lang="nl">
-
     <head>
         <title> <?php echo $naam[0]; ?> </title>
         <link rel="stylesheet" type="text/css" href="../css/design.css">
     </head>
 
     <body>
-        <h1> <?php echo $naam[0]; ?> </h1>
-        <br>
+        <div class="alles">
+            <div class="links">
+            </div>
+        
+            <div class="midden">
+                <h1> <?php echo $naam[0]; ?> </h1>
+                <br>
+                <table>
+                    <tr>
+                        <td>Naam:</td>
+                        <td> <?php echo $naam[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Nationaliteit:</td>
+                        <td> <?php echo $land[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Eerste race:</td>
+                        <td> <?php echo $eerste[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Jaren actief:</td>
+                        <td> <?php echo $actief[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Teambaas:</td>
+                        <td> <?php echo $baas[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Eerste driver:</td>
+                        <td> <?php echo $een[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Tweede driver:</td>
+                        <td> <?php echo $twee[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Auto:</td>
+                        <td> <?php echo $auto[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Motor leveraar:</td>
+                        <td> <?php echo $motor[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal WCC's:</td>
+                        <td> <?php echo $wcc[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal overwinningen:</td>
+                        <td> <?php echo $win[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Aantal podiums:</td>
+                        <td> <?php echo $podium[0]; ?> </td>
+                    </tr>
+                    <tr>
+                        <td>Beste finish positie :</td>
+                        <td> <?php echo $beste[0]; ?> </td>
+                    </tr>
+                </table>
 
-        <table>
-            <tr>
-                <td>Naam:</td>
-                <td> <?php echo $naam[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Nationaliteit:</td>
-                <td> <?php echo $land[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Eerste race:</td>
-                <td> <?php echo $eerste[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Jaren actief:</td>
-                <td> <?php echo $actief[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Teambaas:</td>
-                <td> <?php echo $baas[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Eerste driver:</td>
-                <td> <?php echo $een[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Tweede driver:</td>
-                <td> <?php echo $twee[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Auto:</td>
-                <td> <?php echo $auto[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Motor leveraar:</td>
-                <td> <?php echo $motor[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal WCC's:</td>
-                <td> <?php echo $wcc[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal overwinningen:</td>
-                <td> <?php echo $win[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Aantal podiums:</td>
-                <td> <?php echo $podium[0]; ?> </td>
-            </tr>
-            <tr>
-                <td>Beste finish positie :</td>
-                <td> <?php echo $beste[0]; ?> </td>
-            </tr>
-        </table>
+                <br>
+                <br>
 
-        <br>
-        <br>
+                <p>
+                    <?php echo $tekst1[0]; ?>
+                </p>
+                <p>
+                    <?php echo $tekst2[0]; ?>
+                </p>
+                <p>
+                    <?php echo $tekst3[0]; ?>
+                </p>
+                <p>
+                    <?php echo $tekst4[0]; ?>
+                </p>
 
-        <p>
-            <?php echo $tekst1[0]; ?>
-        </p>
-        <p>
-            <?php echo $tekst2[0]; ?>
-        </p>
-        <p>
-            <?php echo $tekst3[0]; ?>
-        </p>
-        <p>
-            <?php echo $tekst4[0]; ?>
-        </p>
+                <br>
+                <br>
+                <br>
+                
+                <?php
+                require('comment.php');
+                ?>
+                
+                <br>
+                <br>
 
-        <br>
-        <br>
-        <br>
-        <?php
-            require('comment.php');
-        ?>
-        <br>
-        <br>
+            </div>
+
+            <div class="rechts">
+            </div>
+            
+        </div>
     </body>
 </html>
 
