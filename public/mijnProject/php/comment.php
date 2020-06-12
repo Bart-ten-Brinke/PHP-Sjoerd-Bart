@@ -40,7 +40,7 @@ if (mysqli_num_rows($records) > 0) {
 <?php
 if ($comments == []) {
     echo '<h4>Er zijn nog geen reacties, wees de eerste die iets achterlaat!</h4>';
-    echo $id;
+   
 }
 
 else { 

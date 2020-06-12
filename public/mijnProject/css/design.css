@@ -292,3 +292,17 @@ p {
     text-align: center;
     font-family: verdana;
 }
+
+.links, .rechts {
+   width: 10%;
+   background-color: red;
+}
+
+.midden {
+    width: 80%;
+}
+
+.alles {
+    display: flex;
+}
+
