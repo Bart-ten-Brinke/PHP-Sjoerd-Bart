@@ -2,23 +2,22 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
+
     <body>
         <footer>
-        <div class="footercontent">
-            <div class="footerinfo">
-            <strong>Contact</strong>
-                <div class=contact>
-                <a>050 313 9720</a>
-                <br>
-                <a>info@csgaugustinus.nl</a>
-                <br>
-                <a>
-                Admiraal de Ruyterlaan 37
-                <br>
-                9726 GP Groningen
-                </a>
+            <div class="footercontent">
+                <div class="footerinfo">
+                    <strong>Contact</strong>
+                    <div class=contact>
+                        <a>050 313 9720</a>
+                        <br>
+                        <a>info@csgaugustinus.nl</a>
+                        <br>
+                        <a>Admiraal de Ruyterlaan 37</a>
+                        <br>
+                        <a>9726 GP Groningen</a>
+                    </div>
                 </div>
-            </div>
             <div class=socialmedia>
             <strong>Volg ons</strong>
                 <br>
