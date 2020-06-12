@@ -26,10 +26,11 @@ body {
     text-decoration: none;
     display: flex;
     text-align: center;
-    vertical-align:middle;
+    vertical-align: middle;
     display: inline-block;
     font-size: 24px;
     cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .headerButton:hover {
@@ -43,6 +44,7 @@ body {
     vertical-align:middle;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .headerKeuze2 {
@@ -82,12 +84,18 @@ footer {
     padding-bottom: 5rem;
 }
 
+.footercontent{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .footerinfo{
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: white;
     float: left;
-    margin-right: 200px;
 }
 
 .socialmedia{
@@ -95,8 +103,6 @@ footer {
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: white;
-    float: left;
-    margin-right: 200px;
 }
 .icon{
     margin-top: 25px;
@@ -107,6 +113,17 @@ footer {
 }
 
 .contact{
+    margin-top: 10px;
+}
+
+.credits{
+    float: left;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.inhoudcredits{
     margin-top: 10px;
 }
 

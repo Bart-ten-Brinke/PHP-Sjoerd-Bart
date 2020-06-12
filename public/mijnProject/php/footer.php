@@ -4,6 +4,7 @@
     </head>
     <body>
         <footer>
+        <div class="footercontent">
             <div class="footerinfo">
             <strong>Contact</strong>
                 <div class=contact>
@@ -47,10 +48,16 @@
                 </a>
                 </div>
             </div>
-                <div>
+            <div class="credits">
+            <strong>Makers</strong>
+                <div class="inhoudcredits">
                 <a>Gemaakt door: Sjoerd Karst & Bart ten Brinke</a>
+                <br>
+                <br>
                 <img src="../images/fia.png" style="width:60px;height:40px;border:0;">
                 </div>
+            </div>
+        </div>
         </footer>
 </body>
 </html>
