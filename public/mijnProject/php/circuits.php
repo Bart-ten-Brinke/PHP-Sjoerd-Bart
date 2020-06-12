@@ -317,8 +317,8 @@ $id = $_GET["id"];
         <h1>Grand Prix van <?php echo $land[0]; ?> </h1>
         </header>
         <br>
-        <div class="hoofdinfo">
-                <h2> <?php echo $naam[0]; ?> : </h2>
+        <div>
+                <h2 class="hoofdinfo"> <?php echo $naam[0]; ?> : </h2>
                 <br>
                 <table>
                     <tr>
