@@ -220,7 +220,9 @@
             </div>
         
             <div class="midden">
-                <h1> <?php echo $naam[0]; ?> </h1>
+                <header class="Coureurnaam">
+                    <h1> <?php echo $naam[0]; ?> </h1>
+                </header>
                 <br>
                 <table>
                     <tr>
