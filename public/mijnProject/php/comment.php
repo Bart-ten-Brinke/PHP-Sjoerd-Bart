@@ -66,7 +66,7 @@
             <?php
                 if (isset($_POST['reageer'])) {
                     $reactie = $_POST["comment"];
-                    mysqli_query($DBverbinding, "INSERT INTO `comments` (`id`, `soort`, `plaats_id`, `naam`, `comment`) VALUES (NULL, '$soort', '2', '$gebruiker[0]', '$reactie');");
+                    mysqli_query($DBverbinding, "INSERT INTO `comments` (`id`, `soort`, `plaats_id`, `naam`, `comment`) VALUES (NULL, '$soort', '$id', '$gebruiker[0]', '$reactie');");
                     echo("<meta http-equiv='refresh' content='1'>");
                 }
 
