@@ -1,24 +1,23 @@
 <?php
-$check = 'header.php geladen.<br>';
-session_start();
-if (isset($_SESSION["user"])) {
-    $check = $check.'gebruiker ingelogd.<br>';
-}
-else {
-    $check = $check.'niemand ingelogd.<br>';
-    $css = 'public.css';
-    header("Location: ../index.php");
-}
+    $check = 'header.php geladen.<br>';
+    session_start();
+    if (isset($_SESSION["user"])) {
+        $check = $check.'gebruiker ingelogd.<br>';
+    }
+    
+    else {
+        $check = $check.'niemand ingelogd.<br>';
+        $css = 'public.css';
+        header("Location: ../index.php");
+    }
 ?>
 
 <!doctype html>
 <html lang="nl">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="Sjoerd & Bart">
         <link rel="stylesheet" type="text/css" href="css/design.css?>">
     </head>
+
     <body>
         <header>    
             <div class=header>
