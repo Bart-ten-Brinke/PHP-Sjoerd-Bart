@@ -293,9 +293,20 @@ p {
     font-family: verdana;
 }
 
-.links, .rechts {
-   width: 10%;
+.links {
+   width: 20%;
    background-color: red;
+   background-image: url('../images/Achtergrond.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.rechts {
+   width: 20%;
+   background-color: red;
+   background-image: url('../images/Achtergrond.jpg');
+   background-size: cover;
+   background-position: right;
 }
 
 .midden {
@@ -304,4 +315,8 @@ p {
 
 .alles {
     display: flex;
+}
+
+.inlogtext {
+    text-align: center;
 }

@@ -23,10 +23,11 @@
             
             <br>
             <br>
-
+            <div class="inlogtekst">
             <h3>Heeft u nog geen account?</h3>
             <h4>Maak hier dan een account aan:</h4>
             <a href="php/nieuwAccount.php">Nieuw account:</a>
+            </div>
         </div>
     </body>
 </html>
