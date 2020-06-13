@@ -295,16 +295,16 @@ p {
 
 .links {
    width: 20%;
-   background-color: red;
    background-image: url('../images/Achtergrond.jpg');
+   background-color: red;
    background-size: cover;
    background-position: center;
 }
 
 .rechts {
    width: 20%;
-   background-color: red;
    background-image: url('../images/Achtergrond.jpg');
+   background-color: red;
    background-size: cover;
    background-position: right;
 }
