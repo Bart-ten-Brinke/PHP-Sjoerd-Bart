@@ -55,7 +55,7 @@ body {
     font-size: 34px;
     color: rgb(255, 255, 255);
     position: relative;
-    margin: 0% 6%;
+    margin: 0% 15%;
 }
 
 .headerKeuze2::after {
@@ -320,3 +320,4 @@ p {
 .inlogtext {
     text-align: center;
 }
+
