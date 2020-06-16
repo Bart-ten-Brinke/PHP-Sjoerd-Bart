@@ -10,8 +10,8 @@
         if (mysqli_num_rows($records) == 1) {
             $_SESSION["user"] = "$mail";
             $_SESSION["melding"] = "U bent ingelogd met {$_SESSION["user"]}.";
-            $_SESSION["alert"] = 1; // positieve alert
-            header("Location: circuits.php");
+            $_SESSION["alert"] = 1;
+            header("Location: home.php");
         }
         
         else {
