@@ -230,7 +230,7 @@ footer {
     background-image: url("../images/Vlaggen/FlagUnited_Arab_Emirates.jpg");
 }
 
-.GPnaam{
+.GPnaam, .Coureurnaam{
     text-align: center;
     font-family: verdana;
 }
