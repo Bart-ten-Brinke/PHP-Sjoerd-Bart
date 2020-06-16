@@ -220,6 +220,10 @@
             </div>
         
             <div class="midden">
+                <div class="terug">
+                    <a href="circuits.php">TERUG</a>
+                </div>
+                
                 <header class="Coureurnaam">
                     <h1> <?php echo $naam[0]; ?> </h1>
                 </header>

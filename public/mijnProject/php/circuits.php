@@ -315,6 +315,10 @@
             </div>
 
             <div class="midden">
+                <div class="terug">
+                    <a href="circuits.php">TERUG</a>
+                </div>
+                
                 <header class="GPnaam">
                     <h1>Grand Prix van <?php echo $land[0]; ?> </h1>
                 </header>
