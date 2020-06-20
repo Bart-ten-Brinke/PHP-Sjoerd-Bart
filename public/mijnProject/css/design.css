@@ -50,16 +50,16 @@ body {
     text-align: justify;
     cursor: pointer;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 45px;
     color: rgb(255, 255, 255);
     position: relative;
-    margin: 0% 7%;
+    margin: 0% 10%;
 }
 
 .headerKeuze2::after {
     content: '';
     width: 0%;
-    height: 5px;
+    height: 7px;
     background: rgb(255, 255, 255);
     position: absolute;
     bottom: 0%;
@@ -141,18 +141,18 @@ footer {
     font-size: 34px;
     text-align: center;
     cursor: pointer;
-    position:relative;
-}
-
-.circuit {
-    width: 25%;
-    height: 320px;
+    position: relative;
     color: white;
     text-shadow:
     -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+.circuit {
+    width: 25%;
+    height: 320px;
 }
 
 .achtergrondfotoalgemeen{
@@ -227,7 +227,18 @@ footer {
 .achtergrondfoto22{
     background-image: url("../images/Vlaggen/FlagUnited_Arab_Emirates.jpg");
 }
-
+.achtergrondfoto23{
+    background-image: url("../images/Vlaggen/FlagFinland.jpg");
+}
+.achtergrondfoto24{
+    background-image: url("../images/Vlaggen/FlagGermany.jpg");
+}
+.achtergrondfoto25{
+    background-image: url("../images/Vlaggen/FlagThailand.jpg");
+}
+.achtergrondfoto26{
+    background-image: url("../images/Vlaggen/FlagDenmark.jpg");
+}
 .GPnaam, .Coureurnaam{
     text-align: center;
     font-family: verdana;
@@ -275,8 +286,12 @@ table, td {
   background: transparent;
   font-family: verdana;
   font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2px;
+}
+
+table {
+    width: 80%;
+    margin: 0% 10%;
 }
 
 p {
@@ -319,8 +334,9 @@ p {
 }
 
 .home h1 {
-    font-size: 130px;
+    font-size: 100px;
     margin: 10px;
+    font-family: verdana;
 }
 
 .home p {
@@ -343,6 +359,7 @@ p {
 
 .login form {
     margin: 0;
+    font-family: verdana;
 }
 
 .login label, .login p {

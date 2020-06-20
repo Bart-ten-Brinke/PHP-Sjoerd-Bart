@@ -22,7 +22,7 @@
         }
     }
 
-    $sql = "SELECT naam FROM accounts";
+    $sql = "SELECT naam FROM gebruiker";
     $record = mysqli_query($DBverbinding, $sql);
     $gebruiker = mysqli_fetch_array($record);
 ?>

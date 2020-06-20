@@ -3,24 +3,24 @@
     require('database.php');
     require('header.php');
 
-    $sql = "SELECT naam FROM accounts";
+    $sql = "SELECT naam FROM gebruiker";
     $record = mysqli_query($DBverbinding, $sql);
-    $naam = mysqli_fetch_array($record);
+    $user = mysqli_fetch_array($record);
 ?>
 
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <title>F1 Circuits</title>
+        <title>Welkom</title>
         <link rel="stylesheet" type="text/css" href="../css/design.css">
     </head>
     <body>
         <div class="home">
-            <h1>Welkom <?php echo $naam[0] ?> </h1>
+            <h1>Welkom <?php echo $user[0] ?> </h1>
             
             <p>Op deze site kunt u informatie vinden over</p>
-            <p>onder andere de Formule 1 circuits en </p>
-            <p>coureurs van het seizoen van 2020.</p>
+            <p>de Formule 1 circuits en coureurs van het </p>
+            <p>Formule 1 seizoen van 2020.</p>
             <br>
             <p>Daarnaast kunt u reacties achterlaten om</p>
             <p>zo gesprekken en discussies te voeren met</p>
@@ -30,6 +30,8 @@
             <p>tijdens het gebruiken van onze site.</p>
             <p>En als u vragen of opmerkingen hebt</p>
             <p>kunt u altijd contact met ons opnemen.</p>
+            <br>
+            <br>
             
         </div>
     </body>

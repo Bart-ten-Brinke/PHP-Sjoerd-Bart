@@ -1,0 +1,25 @@
+INHOUD SITE:
+Op onze site kan de gebruiker een account aanmaken om vervolgens in te loggen.
+Hierna kan de gebruiker informatie vinden over de Formule 1 circuits en 
+Formule 1 coureurs van het seizoen van 2020.
+Bij elk circuit of coureur kan de gebruiker een eigen reactie achterlaten.
+
+INSTRUCTIES: 
+U kunt kiezen om zelf een account te maken of om een al bestaand account te 
+gebruiken. Als u kiest om zelf een account aan te maken wijzen de instructies
+op de site zich vanzelf, u moet echter niet een echt wachtwoord gebruiken want
+wij kunnen deze zien. Als u een bestaand account wilt gebruiken kunt u het 
+volgende account gebruiken: 
+-E-mail: admin@admin.com
+-Wachtwoord: admin
+
+Op elke pagina met een circuit of coureur kunt u zelf reacties achterlaten. Bij het circuit
+Melbourne ziet u een voorbeeld van 1 reactie op de pagina. Bij het circuit Zandvoort 
+ziet u een voorbeeld met meerdere reacties.
+
+REFLECTIE: 
+Sjoerd:
+
+Bart: Ik denk dat onze samenwerking ondanks de vele problemen met de verbinding van github en
+gitpod erg goed verliep. Wij maakten samen duidelijke plannen en verdeelden het werk zo eerlijk
+mogelijk. Ik ben erg tevreden over ons eind resultaat en onze samenwerking.

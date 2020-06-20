@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
 
-    <body>
+    <body style="height: 920px;">
         <div class="header">
             <div style="width: 286.5px; height: 100px; display: table-cell;">
                 <img src="images/logo.png" alt="Logo" style="height:70px; margin: 15px;">
@@ -30,8 +30,8 @@
             <p>Maak hier dan een account aan:</p>
             <a href="php/nieuwAccount.php">NIEUW ACCOUNT</a>
         </div>
-        <br>
-        <br>
+        <div style="height: 100px;">
+        </div>
     </body>
 </html>
 

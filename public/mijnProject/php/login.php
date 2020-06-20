@@ -11,7 +11,13 @@
             $_SESSION["user"] = "$mail";
             $_SESSION["melding"] = "U bent ingelogd met {$_SESSION["user"]}.";
             $_SESSION["alert"] = 1;
-            header("Location: home.php");
+
+            $sql = "SELECT naam FROM accounts WHERE email='$mail'";
+            $record = mysqli_query($DBverbinding, $sql);
+            $user = mysqli_fetch_array($record);
+            mysqli_query($DBverbinding,"INSERT INTO `gebruiker` (`naam`) VALUES ('$user[0]')");
+
+            require('home.php');
         }
         
         else {
