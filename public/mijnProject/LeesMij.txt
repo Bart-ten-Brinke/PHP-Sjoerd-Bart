@@ -18,8 +18,6 @@ Melbourne ziet u een voorbeeld van 1 reactie op de pagina. Bij het circuit Zandv
 ziet u een voorbeeld met meerdere reacties.
 
 REFLECTIE: 
-Sjoerd:
-
-Bart: Ik denk dat onze samenwerking ondanks de vele problemen met de verbinding van github en
-gitpod erg goed verliep. Wij maakten samen duidelijke plannen en verdeelden het werk zo eerlijk
-mogelijk. Ik ben erg tevreden over ons eind resultaat en onze samenwerking.
+Bart was vooral bezig met de database en Sjoerd was vooral bezig met de website maken. Het project verliep wel redelijk stroef omdat we veel problemen ondervonden. Hierdoor duurde het wat langer dan we gepland hadden. Hierdoor hebben we uiteindelijk niet ons volledige plan waar kunnen maken. Ondanks dat zijn we wel tevreden met ons project. Het project was erg leuk om te doen. 
+We hadden een goede en duidelijke taakverdeling gemaakt. De communicatie tussen ons verliep prima. Als we hulp nodig hadden konden we elkaar via Whatsapp of Discord goed bereiken.
+We hebben door dit project veel geleerd over databases en de communicatie tussen databases en websites. 
